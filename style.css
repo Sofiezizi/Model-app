@@ -1,0 +1,27 @@
+/*Vigtigt altid at tilføje*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+
+/*Logo ovenpå baggrundsbillede*/
+
+.LM {
+position: absolute;
+margin: 0;
+width: 100%;
+top: 50%;
+transform: translateY(-50%);
+}
+
+/*Tekst over billede*/
+
+.Tekstoverbillede figcaption {
+position: absolute;
+margin: 0;
+width: 97%;
+top: 30%;
+transform: translateY(-50%);
+}
